@@ -121,9 +121,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "".format(FQDN)
+    URL = "https://family-movies-bot.onrender.com".format(FQDN)
 else:
-    URL = "".format(FQDN)
+    URL = "https://family-movies-bot.onrender.com".format(FQDN)
 
 
 
